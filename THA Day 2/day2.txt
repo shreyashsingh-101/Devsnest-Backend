@@ -1,0 +1,24 @@
+SQL
+
+CREATE SCHEMA mySchema;
+CREATE TABLE mySchema.company;
+
+CREATE USER devnest WITH PASSWORD 'password';         /* Create a new user and assign password to it */
+CREATE DATABASE devsDB;                               /* Create a new database, think database as drives (C:, D:) on system */
+GRANT ALL PRIVILEGES ON DATABASE devsDB to devnest;   /* Gives permissions to devnest for devsDB */
+DROP DATABASE IF EXISTS devsDB;                       /* Deletes the database */
+CREATE DATABASE devsDB;
+
+
+CREATE TABLE COMPANY(
+   ID INT PRIMARY KEY     NOT NULL,
+   NAME           TEXT    NOT NULL,
+   AGE            INT     NOT NULL,
+   ADDRESS        CHAR(50),
+   SALARY         REAL
+);                                                    /* Creates table named company */
+CREATE TABLE DEPARTMENT(
+   ID INT PRIMARY KEY      NOT NULL,
+   DEPT           CHAR(50) NOT NULL,
+   EMP_ID         INT      NOT NULL
+);                                                    /* Creates table named department */

@@ -1,0 +1,35 @@
+Redis commmands
+
+redis-server
+redis-cli
+
+SET key value
+GET key
+ttl key
+KEYS *
+DEL key
+FLUSHALL
+EXISTS key
+expire key time
+setex key time value
+
+Arrays
+
+LPUSH array value
+RPUSH array value
+LRANGE array start stop
+LPOP array
+RPOP array
+
+Sets
+
+SADD myset value
+SMEMBERS myset
+
+Hash
+
+HSET key field value
+HGET key field
+HGETALL key
+HDEL key field
+HEXISTS key field
