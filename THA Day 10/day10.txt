@@ -1,0 +1,9 @@
+Created an EC2 instance in AWS.
+
+Installed and updated node.
+
+Cloned a project repository.
+
+Installed forever npm.
+
+Launched the React Project.
