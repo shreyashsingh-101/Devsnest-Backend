@@ -1,0 +1,15 @@
+
+
+Project Planning
+
+---> Waterfall Methodology (planning everything in advance)
+
+---> Agile Methodology (flexible approach in making decisions regarding development)
+
+---> HLD (High Level Design) (Overall Structure of the application)
+
+---> GraphQL -- Sends only required data to Frontend
+
+---> JIRA (Project Planning and Management Software)
+
+---> Breaking every task into atomic level components
